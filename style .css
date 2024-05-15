@@ -54,29 +54,28 @@ background-color: rgba(113, 102, 134, 0.879)
 }
 
 #startBtn {
-    background-color: hsl(115, 100%, 32%);
+    background-color: hsl(115, 100%, 50%);
 }
 
 #startBtn:hover {
-    background-color: hsl(115, 48%, 20%);
+    background-color: hsl(115, 100%, 37%);
 }
 
 #stopBtn {
-    background-color: hsl(10, 90%, 50%);
+    background-color: hsl(10, 100%, 50%);
 }
 
 #stopBtn:hover {
-    background-color: hsl(10, 89%, 31%);
+    background-color: hsl(10, 100%, 41%);
 }
 
 #resetBtn {
-    background-color: hsl(205, 90%, 60%);
+    background-color: hsl(205, 100%, 60%);
 }
 
 #resetBtn:hover {
-    background-color: hsl(205, 89%, 43%);
+    background-color: hsl(205, 76%, 45%);
 }
-
 
 
 
