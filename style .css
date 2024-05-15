@@ -7,8 +7,7 @@ background-color: rgba(113, 102, 134, 0.879)
 }
 
 #myH1 {
-    font-size: 4rem;
-    text-decoration: wavy underline;
+    font-size: 4rem;    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: hsl(255, 61%, 31%);
     text-shadow: 2px 2px 9px rgb(255, 221, 0); 
@@ -102,7 +101,7 @@ background-color: rgba(113, 102, 134, 0.879)
     #controls button {
         font-size: 1.2rem;
         padding: 8px 16px;
-        min-width: 95px;
+        min-width: 80px;
 
     }
 }
