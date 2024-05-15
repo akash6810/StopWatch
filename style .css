@@ -10,8 +10,8 @@ background-color: rgba(113, 102, 134, 0.879)
     font-size: 4rem;
     text-decoration: wavy underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: hsl(255, 56%, 37%);
-    text-shadow: 2px 2px 9px rgb(238, 255, 0); 
+    color: hsl(255, 61%, 31%);
+    text-shadow: 2px 2px 9px rgb(255, 221, 0); 
 }
 
 #container {
@@ -23,7 +23,7 @@ background-color: rgba(113, 102, 134, 0.879)
     border-radius: 50px;
     background-image: radial-gradient(circle, #ab73e9, #a06cdd, #9666d1, #8c5fc6,
      #8259ba, #7b53b6, #744db1, #6d47ad, #6640b0, #5e39b2, #5631b5, #4b2ab8);
-    box-shadow: rgba(255, 196, 0, 0.25) 0px 54px 55px, rgba(250, 192, 0, 0.12) 0px -12px 30px,
+    box-shadow: rgba(255, 196, 0, 0.317) 0px 54px 55px, rgba(250, 192, 0, 0.409) 0px -12px 30px,
      rgba(255, 179, 0, 0.12) 0px 4px 6px, rgba(255, 200, 0, 0.17) 0px 12px 13px,
       rgba(248, 215, 0, 0.09) 0px -3px 5px;
 }
@@ -88,7 +88,7 @@ background-color: rgba(113, 102, 134, 0.879)
 
 @media screen and (max-width: 576px) {
     #container {
-        max-width: 95%;
+        max-width: 87%;
     }
 
     #myH1 {
@@ -96,11 +96,13 @@ background-color: rgba(113, 102, 134, 0.879)
     }
 
     #display {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     #controls button {
         font-size: 1.2rem;
         padding: 8px 16px;
+        min-width: 95px;
+
     }
 }
