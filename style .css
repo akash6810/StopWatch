@@ -7,7 +7,8 @@ background-color: rgba(113, 102, 134, 0.879)
 }
 
 #myH1 {
-    font-size: 4rem;    
+    font-size: 4rem;
+    text-decoration: wavy underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: hsl(255, 61%, 31%);
     text-shadow: 2px 2px 9px rgb(255, 221, 0); 
@@ -41,7 +42,7 @@ background-color: rgba(113, 102, 134, 0.879)
     font-weight: bold;
     padding: 10px 20px;
     margin: 5px;
-    min-width: 125px;
+    width: 125px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -81,13 +82,49 @@ background-color: rgba(113, 102, 134, 0.879)
 
 @media screen and (max-width: 768px) {
     #container {
-        max-width: 90%;
+       width: 70%;
+    }
+}
+@media screen and (max-width: 720px) {
+    #container {
+        width: 75%;
+    }
+
+    #myH1 {
+        font-size: 4rem;
+    }
+    #display {
+        font-size: 2rem;
+    }
+    #controls button {
+        font-size: 1.3rem;
+        padding: 8px 16px;
+        width: 95px;
+
     }
 }
 
+@media screen and (max-width: 720px) {
+    #container {
+        width: 75%;
+    }
+
+    #myH1 {
+        font-size: 4rem;
+    }
+    #display {
+        font-size: 4rem;
+    }
+    #controls button {
+        font-size: 1.3rem;
+        padding: 8px 16px;
+        width: 95px;
+
+    }
+}
 @media screen and (max-width: 576px) {
     #container {
-        max-width: 87%;
+        width: 75%;
     }
 
     #myH1 {
@@ -100,8 +137,50 @@ background-color: rgba(113, 102, 134, 0.879)
 
     #controls button {
         font-size: 1.2rem;
-        padding: 8px 16px;
-        min-width: 80px;
+        padding: 8px 8px;
+        width: 70px;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #container {
+        width: 75%;
+    }
+
+    #myH1 {
+        font-size: 3rem;
+    }
+
+    #display {
+        font-size: 2.5rem;
+    }
+
+    #controls button {
+        font-size: 1.2rem;
+        padding: 8px 8px;
+        width: 70px;
+
+    }
+}
+
+@media screen and (max-width: 414px) {
+    #container {
+        width: 75%;
+    }
+
+    #myH1 {
+        font-size: 3rem;
+    }
+
+    #display {
+        font-size: 2.5rem;
+    }
+
+    #controls button {
+        font-size: 1rem;
+        padding:  10px;
+        width: 65px;
 
     }
 }
